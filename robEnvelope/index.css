@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+html {
+  font-size: 12px; }
+
+body {
+  background-color: RGBA(0, 0, 0, 0.1); }
+
+ul {
+  list-style-type: none; }
+
+@media screen and (max-width: 360px) {
+  #foot_comp {
+    margin-top: -1rem; }
+    #foot_comp h3 {
+      font-weight: bold;
+      font-size: 1.5rem; } }
+#manage_tit {
+  background: orange;
+  color: white;
+  height: 2.6rem;
+  line-height: 2.6rem; }
+  #manage_tit span {
+    cursor: pointer;
+    float: left;
+    font-size: 2rem; }
+  #manage_tit p {
+    display: block;
+    font-size: 1.5rem;
+    text-align: center; }
+
+#rob_item {
+  background: url("img/redpaperbefore1.png");
+  background-size: cover;
+  margin-top: 3rem;
+  height: 36rem;
+  width: 25rem; }
+
+.rob_clickBtn {
+  background: transparent;
+  z-index: 555;
+  cursor: pointer;
+  border: 1px solid yellow;
+  position: relative;
+  left: 6.8rem;
+  top: 4rem;
+  border-radius: 50%;
+  height: 9rem;
+  width: 9rem; }
+  .rob_clickBtn:hover {
+    background: RGBA(50, 150, 0, 0.3); }
+
+.rob_bigMoney {
+  display: block;
+  position: relative;
+  width: 0;
+  top: 16rem;
+  left: 14rem;
+  font-size: 3rem;
+  font-style: oblique;
+  color: gold; }
+
+#foot_comp h3 {
+  font-weight: bold; }
+
+.rob_opened {
+  z-index: -55;
+  position: relative;
+  bottom: 3rem;
+  text-align: center; }
+  .rob_opened p {
+    font-size: 2rem;
+    text-align: center; }
+  .rob_opened .p_money {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #E9FF2E; }
+  .rob_opened .btn {
+    margin: 2rem auto;
+    border-radius: 5px;
+    width: 15rem;
+    display: block;
+    color: orangered;
+    font: 2rem 'Microsoft Yahei';
+    font-weight: bold;
+    background: #E9FF2E; }
+
+/*# sourceMappingURL=index.css.map */
