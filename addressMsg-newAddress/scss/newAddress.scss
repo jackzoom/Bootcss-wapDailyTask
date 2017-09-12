@@ -1,0 +1,90 @@
+//新增地址样式表
+
+//样式初始化定义
+*{
+  padding: 0;
+  margin: 0;
+}
+html{
+  font-size: 12px;
+}
+body{
+  background: #eeeeee;
+}
+ul{
+  list-style-type: none;
+}
+p{
+  margin: 0;
+}
+
+//功能标题
+#address_tit{
+  background: orange;
+  color:white;
+  line-height: 2.6rem;
+  span{cursor: pointer;
+    float: left;
+    font-size: 2rem;
+  }
+  p{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
+//联系人选择图标样式
+.contact{
+  color: #ccc;
+}
+//初始化表单容器下偏移
+.form-group{
+  margin-bottom: 0;
+}
+
+#address_item{
+  margin-top: .5rem;
+  li{
+    margin-top:.1rem;
+  }
+}
+.edit_text{
+  border: transparent;
+}
+//设为默认按钮样式
+.set_default{
+  height: 2.5rem;
+  background-color:#fff;
+  border-radius: 4px;
+  margin-top: .2rem;
+  span{
+    margin-left: 1rem;
+    line-height: 2.8rem;
+  }
+//  设为默认文本样式
+  .selected{
+    border: 2px solid #ccc;
+    height: 1.5rem;
+    line-height: 1.2rem;
+    text-align: center;
+    color: transparent;
+    width: 1.5rem;
+    float: right;
+    margin-top: .5rem;
+    margin-right: .7rem;
+  }
+}
+//保存按钮样式
+.btn_save{
+  cursor: pointer;
+  width: 90%;
+  color:white;
+  background: orange;
+  margin: 1rem 5%;
+  .save{
+    display: block;
+  }
+}
+
+
+

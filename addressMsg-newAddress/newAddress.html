@@ -1,0 +1,61 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"  crossorigin="anonymous">
+    <link rel="stylesheet" href="scss/newAddress.css"/>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/newAddress.js"></script>
+    <title>添加收货地址</title>
+</head>
+
+<body>
+<div id="address_main">
+    <header id="address_tit" class="container-fluid">
+        <span class="return">&lt;</span>
+        <p>新增地址</p>
+    </header>
+    <div id="address_item" class="col-xm-8">
+        <ul>
+            <li>
+                <div class="form-group has-info has-feedback">
+                    <input type="text" class="edit_text form-control" placeholder="联系人">
+                    <span class="contact glyphicon glyphicon-user form-control-feedback" aria-hidden="true"></span>
+                    <input type="file" style="display: none"/>
+                </div>
+            </li >
+            <li>
+                <div class="form-group has-info has-feedback">
+                    <input type="text" class="edit_text form-control" placeholder="联系电话">
+                </div>
+            </li>
+            <li>
+                <div class="form-group has-info has-feedback">
+                    <input type="text" class="edit_text form-control" placeholder="收货地址">
+                </div>
+            </li>
+            <li>
+                <div class="set_default ">
+                    <span class="control-label">设为默认地址</span>
+                    <label class="selected">
+                        &checkmark;
+                    </label>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+    <div class="btn_save btn container-fluid" >
+        <span class="save">保存</span>
+    </div>
+
+
+
+
+
+
+</div>
+
+</body>
+</html>

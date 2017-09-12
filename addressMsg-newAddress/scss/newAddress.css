@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+html {
+  font-size: 12px; }
+
+body {
+  background: #eeeeee; }
+
+ul {
+  list-style-type: none; }
+
+p {
+  margin: 0; }
+
+#address_tit {
+  background: orange;
+  color: white;
+  line-height: 2.6rem; }
+  #address_tit span {
+    cursor: pointer;
+    float: left;
+    font-size: 2rem; }
+  #address_tit p {
+    font-size: 1.5rem;
+    text-align: center; }
+
+.contact {
+  color: #ccc; }
+
+.form-group {
+  margin-bottom: 0; }
+
+#address_item {
+  margin-top: .5rem; }
+  #address_item li {
+    margin-top: .1rem; }
+
+.edit_text {
+  border: transparent; }
+
+.set_default {
+  height: 2.5rem;
+  background-color: #fff;
+  border-radius: 4px;
+  margin-top: .2rem; }
+  .set_default span {
+    margin-left: 1rem;
+    line-height: 2.8rem; }
+  .set_default .selected {
+    border: 2px solid #ccc;
+    height: 1.5rem;
+    line-height: 1.2rem;
+    text-align: center;
+    color: transparent;
+    width: 1.5rem;
+    float: right;
+    margin-top: .5rem;
+    margin-right: .7rem; }
+
+.btn_save {
+  cursor: pointer;
+  width: 90%;
+  color: white;
+  background: orange;
+  margin: 1rem 5%; }
+  .btn_save .save {
+    display: block; }
+
+/*# sourceMappingURL=newAddress.css.map */

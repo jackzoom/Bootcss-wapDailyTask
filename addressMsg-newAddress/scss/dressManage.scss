@@ -1,0 +1,95 @@
+//收货地址管理样式表
+
+//初始化页面样式
+*{
+  padding: 0;
+  margin: 0;
+}
+html{
+  font-size: 12px;
+}
+body{
+  background-color: RGBA(0,0,0,.1);
+}
+ul{
+  list-style-type: none;
+}
+
+
+//标题样式
+#manage_tit{
+  background: orange;
+  color:white;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  span{
+    float: left;
+    font-size: 2rem;
+  }
+  p{
+    display: block;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
+//新建按钮样式
+#new_address{
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 1.6rem;
+  background: orange;
+  margin: .4rem 2%;
+}
+
+//单个地址样式
+.list_item{
+  padding-top: 2rem;
+  font-size: 1.4rem;
+
+  background: whitesmoke;
+  margin-top: .8rem;
+  padding-left: .6rem;
+  b{
+    font-size: 1.4rem;
+    float: left;
+    margin-right: 1rem;
+  }
+  p{
+    font-weight: bold;
+  }
+  .btn_list{
+    border-top: 1px solid #ccc;
+    height: 5rem;
+    .default_add{
+      margin-top: .5rem;
+      float: left;
+      line-height: 2.8rem;
+      height: 2.8rem;
+      span{
+        color: transparent;
+        margin-top: .6rem;
+        margin-right: .4rem;
+        float: left;
+        font-weight: bold;
+        line-height: 1.7rem;
+        text-align: center;
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+      }
+    }
+
+//    编辑和删除按钮样式
+    .btn_edit{
+      color: RGBA(0,0,0,.6);
+      border: 1px solid #ccc;
+      margin-top: .5rem;
+      margin-right: 1rem;
+      float: right;
+    }
+  }
+
+}
+
